@@ -133,3 +133,129 @@
 **Type:** Functional  
 
 ---
+
+### Module: Product Detail View
+
+#### TC_DESK_CAT_11  
+**Title:** Verify product detail displays correct name  
+**Preconditions:** On any category listing  
+**Test Steps:**  
+1. Click on first product title.  
+**Expected Results:**  
+- Detail page shows product name matching listing.  
+**Priority:** High  
+**Type:** Functional  
+
+---
+
+#### TC_DESK_CAT_12  
+**Title:** Verify product detail displays correct price  
+**Preconditions:** On product detail page  
+**Test Steps:**  
+1. Compare price on detail page with listing.  
+**Expected Results:**  
+- Prices match exactly.  
+**Priority:** High  
+**Type:** Functional  
+
+---
+
+#### TC_DESK_CAT_13  
+**Title:** Verify product images load properly  
+**Preconditions:** On product detail page  
+**Test Steps:**  
+1. Observe product image.  
+**Expected Results:**  
+- Image is displayed without distortion or placeholder.  
+**Priority:** Medium  
+**Type:** UI  
+
+---
+
+#### TC_DESK_CAT_14  
+**Title:** Verify "Add to cart" from product detail page  
+**Preconditions:** On product detail page  
+**Test Steps:**  
+1. Click "Add to cart" button.  
+**Expected Results:**  
+- Alert confirms addition.  
+- Cart badge increments by 1.  
+**Priority:** High  
+**Type:** Functional  
+
+---
+
+#### TC_DESK_CAT_15  
+**Title:** Verify back navigation from detail to listing  
+**Preconditions:** On product detail page  
+**Test Steps:**  
+1. Click browser Back button.  
+**Expected Results:**  
+- Returns to previous category listing.  
+**Priority:** Medium  
+**Type:** Functional  
+
+---
+
+### Additional Desktop Cases
+
+#### TC_DESK_CAT_16  
+**Title:** Verify currency consistency across pages  
+**Preconditions:** On any page  
+**Test Steps:**  
+1. Note currency symbol on homepage and detail pages.  
+**Expected Results:**  
+- Currency symbol is the same (e.g., $) throughout.  
+**Priority:** Low  
+**Type:** UI  
+
+---
+
+#### TC_DESK_CAT_17  
+**Title:** Verify product description text displays correctly  
+**Preconditions:** On product detail page  
+**Test Steps:**  
+1. Read description text for special characters or truncation.  
+**Expected Results:**  
+- Description is complete, no broken lines.  
+**Priority:** Low  
+**Type:** UI  
+
+---
+
+#### TC_DESK_CAT_18  
+**Title:** Verify cart badge persists after page refresh  
+**Preconditions:** Item in cart  
+**Test Steps:**  
+1. Refresh browser.  
+**Expected Results:**  
+- Cart badge count remains unchanged.  
+**Priority:** Medium  
+**Type:** Functional  
+
+---
+
+#### TC_DESK_CAT_19  
+**Title:** Verify URL changes on category selection  
+**Preconditions:** On homepage  
+**Test Steps:**  
+1. Click "Laptops" category.  
+**Expected Results:**  
+- URL contains query or path indicating selected category.  
+**Priority:** Low  
+**Type:** UI  
+
+---
+
+#### TC_DESK_CAT_20  
+**Title:** Verify page title updates per category  
+**Preconditions:** On homepage  
+**Test Steps:**  
+1. Select each category.  
+2. Observe document title in browser tab.  
+**Expected Results:**  
+- Title reflects category name, e.g., "Products - Laptops".  
+**Priority:** Low  
+**Type:** UI  
+
+---
