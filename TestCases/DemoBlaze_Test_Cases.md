@@ -276,7 +276,7 @@
 ---
 
 #### TC_MOB_AND_02  
-**Title:** Verify category navigation from menu  
+**Title:** Verify category navigation from hamburger menu  
 **Preconditions:** Menu expanded  
 **Test Steps:**  
 1. Tap "Monitors" link.  
@@ -288,12 +288,13 @@
 ---
 
 #### TC_MOB_AND_03  
-**Title:** Verify responsive layout on Pixel 4 emulation  
+**Title:** Verify responsive layout on Pixel 5 emulation  
 **Preconditions:** On homepage  
 **Test Steps:**  
-1. Observe product grid layout.  
+1. Rotate device orientation.  
+2. Observe product grid layout.  
 **Expected Results:**  
-- Products displayed in a responsive single-column layout.  
+- Grid adjusts columns appropriately for portrait and landscape.  
 **Priority:** Medium  
 **Type:** UI  
 
@@ -303,10 +304,10 @@
 **Title:** Verify pagination in Android emulation  
 **Preconditions:** On category with >6 items  
 **Test Steps:**  
-1. Scroll to pagination controls.  
+1. Scroll to pagination.  
 2. Tap "Next".  
 **Expected Results:**  
-- Next page of products loads correctly.  
+- Next set of products loads correctly on small viewport.  
 **Priority:** Medium  
 **Type:** Functional  
 
@@ -316,9 +317,9 @@
 **Title:** Verify product card layout on Android  
 **Preconditions:** On category listing  
 **Test Steps:**  
-1. Observe layout of first product.  
+1. Observe first product card.  
 **Expected Results:**  
-- All elements visible without overlap or cutoff.  
+- Image, title, price, and "Add to cart" button are fully visible without overlap.  
 **Priority:** Medium  
 **Type:** UI  
 
@@ -328,9 +329,9 @@
 **Title:** Verify "Add to cart" alert on Android  
 **Preconditions:** On product listing  
 **Test Steps:**  
-1. Tap "Add to cart".  
+1. Tap "Add to cart" for an item.  
 **Expected Results:**  
-- Confirmation alert fully visible and dismissible.  
+- Confirmation alert appears centered and fully visible.  
 **Priority:** High  
 **Type:** Functional  
 
@@ -338,48 +339,48 @@
 
 #### TC_MOB_AND_07  
 **Title:** Verify order modal placement on Android
-**Preconditions:** Cart page open  
+**Preconditions:** Item in cart; cart page open  
 **Test Steps:**  
-1. Tap "Place Order".  
+1. Tap "Place Order" button.  
 **Expected Results:**  
-- Modal appears centered and covers appropriate viewport.  
+- Order modal is fully visible and scrollable.  
 **Priority:** High  
 **Type:** Functional  
 
 ---
 
 #### TC_MOB_AND_08  
-**Title:** Verify input field behavior in modal  
-**Preconditions:** Modal open  
+**Title:** Verify form field alignment in order modal  
+**Preconditions:** Order modal open  
 **Test Steps:**  
-1. Tap each input field.  
+1. Observe all input fields alignment.  
 **Expected Results:**  
-- Keyboard does not obscure fields; fields remain visible.  
+- Labels and input boxes align correctly without overlap.  
 **Priority:** Medium  
-**Type:** Functional  
+**Type:** UI  
 
 ---
 
 #### TC_MOB_AND_09  
 **Title:** Verify modal scroll on Android
-**Preconditions:** Modal content exceeds viewport  
+**Preconditions:** Order modal open  
 **Test Steps:**  
-1. Swipe up within modal.  
+1. Swipe up on modal content.  
 **Expected Results:**  
-- Modal content scrolls smoothly; bottom buttons accessible.  
+- Content scrolls smoothly; bottom fields accessible.  
 **Priority:** Medium  
 **Type:** Functional  
 
 ---
 
 #### TC_MOB_AND_10  
-**Title:** Verify page title legibility on Android  
+**Title:** Verify responsive page title visibility
 **Preconditions:** On any page  
 **Test Steps:**  
-1. Observe browser tab title area.  
+1. Check document title in tab UI on emulation.  
 **Expected Results:**  
 - Title text is legible and not truncated.  
 **Priority:** Low  
-**Type:** UI
+**Type:** UI  
 
 ---

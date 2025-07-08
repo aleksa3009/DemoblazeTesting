@@ -79,7 +79,7 @@
 ---
 
 #### TC_MOB_AND_07  
-**Title:** Verify order modal displays correctly
+**Title:** Verify order modal placement on Android
 **Preconditions:** Item in cart; cart page open  
 **Test Steps:**  
 1. Tap "Place Order" button.  
@@ -103,7 +103,7 @@
 ---
 
 #### TC_MOB_AND_09  
-**Title:** Verify modal scroll behavior on small screens
+**Title:** Verify modal scroll on Android
 **Preconditions:** Order modal open  
 **Test Steps:**  
 1. Swipe up on modal content.  
