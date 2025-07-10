@@ -90,7 +90,7 @@ This document is the formal test plan for manual compatibility testing of the De
 - **Performance:** Lighthouse (CLI or DevTools)  
 - **VCS & Repo:** Git + GitHub (`DemoBlazeTesting`)
 
-## 8. Entry Criteria Entry Criteria
+## 8. Entry Criteria
 
 - Folder structure established in repository  
 - Browsers and tools installed and configured  
@@ -131,7 +131,7 @@ This document is the formal test plan for manual compatibility testing of the De
 - **Daily Reports:** `Reports/Daily_Report_DD-MM-YYYY.md`  
 - **Final Report:** `Reports/Final_Report.md`
 
-## 12. Schedule Schedule
+## 12. Schedule 
 
 | Day  | Activity                                       | Duration  |
 |------|------------------------------------------------|-----------|
