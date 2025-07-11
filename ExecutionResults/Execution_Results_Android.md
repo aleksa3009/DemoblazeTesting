@@ -45,8 +45,11 @@
 3. Observe product grid.  
 **Result:** ❌ FAIL  
 **Actual:** Grid misaligned in landscape mode, overlapping 2 product cards.  
-![Screenshot](/DemoblazeTesting/ExecutionResults/Screenshots/TC_MOB_AND_03_fail.png)  
 **End Time:** 13:09
+**Screenshot:**
+
+![Screenshot](/ExecutionResults/Defect_Report_Screenshots/TC_Android_03_fail.png)
+
 
 ---
 
@@ -98,9 +101,11 @@
 1. Open order modal.  
 2. Observe label/field alignment.  
 **Result:** ❌ FAIL  
-**Actual:** Field labels are shifted and misaligned on smaller widths.  
-![Screenshot](/DemoblazeTesting/ExecutionResults/Screenshots/TC_MOB_AND_08_fail.png)  
+**Actual:** Field labels are shifted and misaligned on smaller widths.   
 **End Time:** 13:25
+**Screenshot:**
+
+![Screenshot](/ExecutionResults/Defect_Report_Screenshots/TC_Android_08_fail.png)
 
 ---
 

@@ -43,8 +43,10 @@
 2. Observe product grid layout.  
 **Result:** FAIL  
 **Actual:** Grid fails to reflow correctly in landscape; overlaps observed.  
-![Screenshot](/DemoblazeTesting/ExecutionResults/Screenshots/TC_MOB_iOS_03_fail.png)  
 **End Time:** 12:39
+**Screenshot:**
+
+![Screenshot](/ExecutionResults/Defect_Report_Screenshots/TC_MOB_iOS_03_fail.png)
 
 ---
 
@@ -98,9 +100,11 @@
 1. Open order modal.  
 2. Observe label/input alignment.  
 **Result:** FAIL  
-**Actual:** Labels for ZIP code and Name fields misaligned on iPhone X resolution.  
-![Screenshot](/DemoblazeTesting/ExecutionResults/Screenshots/TC_MOB_iOS_08_fail.png)  
+**Actual:** Labels for ZIP code and Name fields misaligned on iPhone X resolution.    
 **End Time:** 12:54
+**Screenshot:**
+
+![Screenshot](/ExecutionResults/Defect_Report_Screenshots/TC_MOB_iOS_08_fail.png)
 
 ---
 
