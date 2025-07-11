@@ -118,9 +118,11 @@ A total of **20 test cases** were executed on the Chrome browser for desktop UI 
 1. Add an item.  
 2. Remove it manually.  
 **Result:** FAIL  
-**Actual:** Cart badge remained at 1 even after item was removed.  
-![Screenshot](/DemoblazeTesting/ExecutionResults/Screenshots/TC_DESK_CAT_10_Chrome_fail.png)  
+**Actual:** Cart badge remained at 1 even after item was removed.   
 **End Time:** 11:46
+**Screenshot:**
+
+![Screenshot](/ExecutionResults/Defect_Report_Screenshots/TC_Desk_10_fail.png)
 
 ---
 
@@ -201,8 +203,10 @@ A total of **20 test cases** were executed on the Chrome browser for desktop UI 
 1. Refresh page after adding item.  
 **Result:** FAIL  
 **Actual:** Badge reset to 0; cart was empty.  
-![Screenshot](/DemoblazeTesting/ExecutionResults/Screenshots/TC_DESK_CAT_18_Chrome_fail.png)  
-**End Time:** 12:12
+**End Time:**12:12
+**Screenshot:**
+
+![Screenshot](/ExecutionResults/Defect_Report_Screenshots/TC_Desk_18_fail.png)
 
 ---
 
@@ -222,8 +226,10 @@ A total of **20 test cases** were executed on the Chrome browser for desktop UI 
 **Test Steps:**  
 1. View browser title bar.  
 **Result:** FAIL  
-**Actual:** Title remained static as "STORE" regardless of selected category.  
-![Screenshot](/DemoblazeTesting/ExecutionResults/Screenshots/TC_DESK_CAT_20_Chrome_fail.png)  
+**Actual:** Title remained static as "STORE" regardless of selected category.   
 **End Time:** 12:18
+**Screenshot:**
+
+![Screenshot](/ExecutionResults/Defect_Report_Screenshots/TC_Desk_20_fail.png)
 
 ---

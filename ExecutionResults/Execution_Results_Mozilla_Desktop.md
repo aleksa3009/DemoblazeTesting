@@ -46,8 +46,10 @@ Test data: Default homepage products and two test user accounts from `TestData/t
 2. Wait for listing to load  
 **Result:** FAIL  
 **Actual:** No products are displayed; console shows `TypeError: undefined is not iterable`.  
-![Screenshot](/DemoblazeTesting/ExecutionResults/Screenshots/TC_DESK_CAT_03_Firefox_fail.png)  
 **End Time:** 10:09
+**Screenshot:**
+
+![Screenshot](/ExecutionResults/Defect_Report_Screenshots/TC_Desk_03_fail.png)
 
 ---
 
@@ -91,9 +93,11 @@ Test data: Default homepage products and two test user accounts from `TestData/t
 2. Click "Add to cart"  
 3. Observe confirmation alert  
 **Result:** FAIL  
-**Actual:** No alert triggered; cart remains unchanged. Possibly JS issue.  
-![Screenshot](/DemoblazeTesting/ExecutionResults/Screenshots/TC_DESK_CAT_07_Firefox_fail.png)  
+**Actual:** No alert triggered; cart remains unchanged. Possibly JS issue.   
 **End Time:** 10:22
+**Screenshot:**
+
+![Screenshot](/ExecutionResults/Defect_Report_Screenshots/TC_Desk_07_fail.png)
 
 ---
 
@@ -199,9 +203,11 @@ Test data: Default homepage products and two test user accounts from `TestData/t
 1. Scroll to description area  
 2. Read entire paragraph  
 **Result:** FAIL  
-**Actual:** Text cuts off mid-sentence; word wrapping bug in Firefox.  
-![Screenshot](/DemoblazeTesting/ExecutionResults/Screenshots/TC_DESK_CAT_17_Firefox_fail.png)  
+**Actual:** Text cuts off mid-sentence; word wrapping bug in Firefox.   
 **End Time:** 10:55
+**Screenshot:**
+
+![Screenshot](/ExecutionResults/Defect_Report_Screenshots/TC_Desk_17_fail.png)
 
 ---
 
