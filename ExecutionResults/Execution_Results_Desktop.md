@@ -118,9 +118,11 @@ A total of **20 test cases** were executed on the Chrome browser for desktop UI 
 1. Add an item.  
 2. Remove it manually.  
 **Result:** FAIL  
-**Actual:** Cart badge remained at 1 even after item was removed.  
-![Screenshot](/DemoblazeTesting/ExecutionResults/Screenshots/TC_DESK_CAT_10_Chrome_fail.png)  
+**Actual:** Cart badge remained at 1 even after item was removed.   
 **End Time:** 11:46
+**Screenshot:**
+
+![Screenshot](/ExecutionResults/Defect_Report_Screenshots/TC_Desk_10_fail.png)
 
 ---
 
@@ -201,8 +203,10 @@ A total of **20 test cases** were executed on the Chrome browser for desktop UI 
 1. Refresh page after adding item.  
 **Result:** FAIL  
 **Actual:** Badge reset to 0; cart was empty.  
-![Screenshot](/DemoblazeTesting/ExecutionResults/Screenshots/TC_DESK_CAT_18_Chrome_fail.png)  
-**End Time:** 12:12
+**End Time:**12:12
+**Screenshot:**
+
+![Screenshot](/ExecutionResults/Defect_Report_Screenshots/TC_Desk_18_fail.png)
 
 ---
 
@@ -222,9 +226,11 @@ A total of **20 test cases** were executed on the Chrome browser for desktop UI 
 **Test Steps:**  
 1. View browser title bar.  
 **Result:** FAIL  
-**Actual:** Title remained static as "STORE" regardless of selected category.  
-![Screenshot](/DemoblazeTesting/ExecutionResults/Screenshots/TC_DESK_CAT_20_Chrome_fail.png)  
+**Actual:** Title remained static as "STORE" regardless of selected category.   
 **End Time:** 12:18
+**Screenshot:**
+
+![Screenshot](/ExecutionResults/Defect_Report_Screenshots/TC_Desk_20_fail.png)
 
 ---
 
@@ -276,8 +282,10 @@ Test data: Default homepage products and two test user accounts from `TestData/t
 2. Wait for listing to load  
 **Result:** FAIL  
 **Actual:** No products are displayed; console shows `TypeError: undefined is not iterable`.  
-![Screenshot](/DemoblazeTesting/ExecutionResults/Screenshots/TC_DESK_CAT_03_Firefox_fail.png)  
 **End Time:** 10:09
+**Screenshot:**
+
+![Screenshot](/ExecutionResults/Defect_Report_Screenshots/TC_Desk_03_fail.png)
 
 ---
 
@@ -321,9 +329,11 @@ Test data: Default homepage products and two test user accounts from `TestData/t
 2. Click "Add to cart"  
 3. Observe confirmation alert  
 **Result:** FAIL  
-**Actual:** No alert triggered; cart remains unchanged. Possibly JS issue.  
-![Screenshot](/DemoblazeTesting/ExecutionResults/Screenshots/TC_DESK_CAT_07_Firefox_fail.png)  
+**Actual:** No alert triggered; cart remains unchanged. Possibly JS issue.   
 **End Time:** 10:22
+**Screenshot:**
+
+![Screenshot](/ExecutionResults/Defect_Report_Screenshots/TC_Desk_07_fail.png)
 
 ---
 
@@ -429,9 +439,11 @@ Test data: Default homepage products and two test user accounts from `TestData/t
 1. Scroll to description area  
 2. Read entire paragraph  
 **Result:** FAIL  
-**Actual:** Text cuts off mid-sentence; word wrapping bug in Firefox.  
-![Screenshot](/DemoblazeTesting/ExecutionResults/Screenshots/TC_DESK_CAT_17_Firefox_fail.png)  
+**Actual:** Text cuts off mid-sentence; word wrapping bug in Firefox.   
 **End Time:** 10:55
+**Screenshot:**
+
+![Screenshot](/ExecutionResults/Defect_Report_Screenshots/TC_Desk_17_fail.png)
 
 ---
 
