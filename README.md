@@ -6,7 +6,7 @@ A comprehensive manual QA project demonstrating end‑to‑end functional, compa
 
 ## Project Overview
 
-**DemoBlaze** is a public demo e‑commerce site used for QA learning. This project covers seven days of manual testing across desktop and mobile environments, focusing on:
+**DemoBlaze** (https://demoblaze.com/) is a public demo e‑commerce site used for QA learning. This project covers seven days of manual testing across desktop and mobile environments, focusing on:
 
 - **Product Categories:** Navigation, pagination, filtering accuracy  
 - **Product Detail Pages:** Content verification, image loading, UI layout  
