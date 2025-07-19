@@ -233,3 +233,9 @@ A total of **20 test cases** were executed on the Chrome browser for desktop UI 
 ![Screenshot](/ExecutionResults/Defect_Report_Screenshots/TC_Desk_20_fail.png)
 
 ---
+
+Summary:  
+- Total Test Cases: 20  
+- Passed: 17  
+- Failed: 3 (detailed bug reports linked)  
+- Next steps: Retesting of failed cases after bug fixes.
