@@ -129,3 +129,9 @@
 **End Time:** 13:02
 
 ---
+
+Summary:  
+- Total Test Cases: 10  
+- Passed: 8  
+- Failed: 2 (detailed bug reports linked)  
+- Next steps: Retesting of failed cases after bug fixes.
