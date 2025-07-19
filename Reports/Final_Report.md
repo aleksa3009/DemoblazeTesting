@@ -1,6 +1,6 @@
 # Final Report – DemoBlaze Manual Compatibility Testing Project
 
-**Project:** Manual UI Compatibility Testing of Core Modules on Demoblaze
+**Project:** Manual Compatibility and Functional UI Testing of Demoblaze E-Commerce Platform
 **Tester:** Aleksa Aleksić
 **Duration:** 07-07-2025 to 12-07-2025
 **Base URL:** [https://www.demoblaze.com](https://www.demoblaze.com)
@@ -12,6 +12,8 @@
 This report documents the manual compatibility testing of the Demoblaze e-commerce website, executed over six workdays. A total of **60 test cases** were designed and executed across desktop (Chrome & Firefox) and mobile (iOS & Android emulation) platforms. The focus was on UI consistency, functional behavior, error handling, and performance insights via Lighthouse audits.
 
 Key activities included structured test case development, execution logging, defect reporting in GitHub Issues, exploratory testing, and performance measurement. All tests were executed manually using Chrome and Firefox, with detailed Markdown logs and screenshots for all failing scenarios.
+
+This project was designed to demonstrate comprehensive manual testing skills suitable for junior QA roles, emphasizing real-world compatibility and functionality scenarios.
 
 ---
 
@@ -55,6 +57,8 @@ Key activities included structured test case development, execution logging, def
 ---
 
 ## 4. Folder Structure & Artifacts
+
+Below is the main project folder structure for organized test artifacts:
 
 ````
 ~/DemoblazeTesting/
@@ -108,7 +112,7 @@ Test cases included positive, negative, and boundary scenarios, with full docume
 
 ## 6. Execution Summary
 
-| Module               | Executed | PASS   | FAIL   | Bugs Logged |
+| Module               | Executed | PASS   | FAIL   | Bugs Reported |
 | -------------------- | -------- | ------ | ------ | ----------- |
 | Categories (Chrome)  | 20       | 17     | 3      | 3           |
 | Categories (Firefox) | 20       | 17     | 3      | 3           |
@@ -117,8 +121,8 @@ Test cases included positive, negative, and boundary scenarios, with full docume
 | **Total**            | **60**   | **50** | **10** | **10**      |
 
 - **Total Execution Time:** \~30 hours
-- **Total Bugs Reported:** 11
-- **Retest Outcome:** 4 Fixed, 6 Still Reproducible
+- **Total Bugs Reported:** 10
+- **Retest Outcome:** 3 Fixed, 7 Still Reproducible
 
 ---
 
@@ -155,6 +159,8 @@ Detailed metrics and recommendations are available in `ExecutionResults/Performa
 3. **Enhance form validation** in the order modal (required fields, error messaging).
 4. **Improve badge persistence** logic in the shopping cart to maintain state.
 5. **Optimize performance** by compressing images, deferring non-critical JS, and lazy-loading content.
+
+Addressing these will significantly improve user experience and platform stability.
 
 ---
 
