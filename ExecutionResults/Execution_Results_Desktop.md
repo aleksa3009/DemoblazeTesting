@@ -479,3 +479,9 @@ Test data: Default homepage products and two test user accounts from `TestData/t
 **End Time:** 11:04
 
 ---
+
+Summary:  
+- Total Test Cases: 40  
+- Passed: 34  
+- Failed: 6 (detailed bug reports linked)  
+- Next steps: Retesting of failed cases after bug fixes.
