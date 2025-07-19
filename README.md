@@ -1,23 +1,24 @@
-# DemoBlaze – Manual E‑commerce Compatibility Testing Project
+# DemoBlaze – Manual E-commerce Compatibility Testing Project
 
-A comprehensive manual QA project demonstrating end‑to‑end functional, compatibility, and performance testing of the DemoBlaze e‑commerce demo application.
+A comprehensive manual QA project showcasing end-to-end functional, compatibility, and performance testing of the DemoBlaze demo e-commerce site ([https://demoblaze.com/](https://demoblaze.com/)).
 
 ---
 
 ## Project Overview
 
-**DemoBlaze** (https://demoblaze.com/) is a public demo e‑commerce site used for QA learning. This project covers seven days of manual testing across desktop and mobile environments, focusing on:
+This repository contains all deliverables from a seven-day manual testing engagement on DemoBlaze, including:
 
 - **Product Categories:** Navigation, pagination, filtering accuracy  
 - **Product Detail Pages:** Content verification, image loading, UI layout  
-- **Shopping Cart:** Add/remove functions, badge count, empty‑cart handling  
+- **Shopping Cart:** Add/remove functionality, badge count, empty-cart handling  
 - **Order Modal (Mobile):** Form validation, layout alignment, scrolling behavior  
-- **Responsive Layout Checks:** Cross‑device consistency using iPhone XII Pro & Pixel 7 emulations  
-- **Performance Audits:** Lighthouse analysis for Home, Product Detail, and Cart pages  
+- **Responsive Layout Checks:** Cross-device consistency using iPhone XII Pro & Pixel 7 emulations  
+- **Performance Audits:** Google Lighthouse analysis of Home, Product Detail, and Cart pages  
 
-**60 test cases executed**  
-**10 defects logged**  
-**Performance scores collected and analyzed**
+A total of **60 structured test cases** were executed, and defects were logged accordingly.
+
+**Important Notice:**  
+The DemoBlaze site has been **non-functional since July 17, 2025**. Due to this, further updates or fixes to this project are not possible.
 
 ---
 
@@ -56,20 +57,16 @@ DemoblazeTesting/
 
 ---
 
-## Test Environment & Tools
+## Tools & Environment
 
-- **OS:** Ubuntu 22.04 LTS  
-- **Browsers:**  
-  - Chrome 138.0.7204.100  
-  - Firefox 140.0.4  
-- **Mobile Emulation:**  
-  - iPhone XII Pro  
-  - Pixel 7
-- **Test Case Management:** Markdown & TestRail  
+- **Operating System:** Ubuntu 22.04 LTS  
+- **Browsers:** Chrome 138.0.7204.100, Firefox 140.0.4  
+- **Mobile Emulation:** iPhone XII Pro, Pixel 7  
+- **Test Management:** Markdown files, TestRail  
 - **Bug Tracking:** GitHub Issues  
-- **Screenshots:** Lightshot + LibreOffice Draw  
+- **Screenshots:** Lightshot & LibreOffice Draw  
 - **Performance Audits:** Google Lighthouse  
-- **Documentation:** Visual Studio Code & Markdown
+- **Version Control:** Git & GitHub  
 
 ---
 
@@ -129,40 +126,16 @@ See: `ExecutionResults/Execution_Results_Lighthouse.md`
 
 ---
 
-## How to Navigate the Repo
+## Transparency Note
 
-1. **Clone Repository:**
-   ```bash
-   git clone https://github.com/aleksa3009/DemoblazeTesting.git
-   cd DemoblazeTesting
-   ```
-
-2. **Start with the Test Plan:**  
-   `TestPlan/Demoblaze_Test_Plan.md`
-
-3. **View Test Cases by Module:**  
-   - Desktop: `Desktop_Test_Cases.md`  
-   - Mobile: `IOS_Test_Cases.md`, `Android_Test_Cases.md`  
-
-4. **Review Execution Logs:**  
-   Folder: `ExecutionResults/`  
-
-5. **Inspect Failures:**  
-   Folder: `Defect_Report_Screenshots/`
-
-6. **Explore Performance Analysis:**  
-   Folder: `ExecutionResults/Execution_Results_Lighthouse.md`
-
-7. **Final Report & Summary:**  
-   `Reports/Final_Report.md`
+This project is part of a personal QA portfolio. Some defects reported in this repository were intentionally fabricated for demonstration purposes, in order to showcase defect documentation, reporting skills, and test case design. Given the DemoBlaze site has been non-functional since July 17, 2025, no further fixes or updates can be applied.
 
 ---
 
-## Contact
+## Conclusion
 
-Maintainer: **Aleksa Aleksić**  
-[askela3009@gmail.com](mailto:askela3009@gmail.com)
+This project demonstrates a structured manual testing approach with comprehensive documentation, covering functional, compatibility, and performance aspects of DemoBlaze. Despite site unavailability, the artifacts showcase solid QA methodology and reporting suitable for junior QA portfolios.
 
 ---
 
-*This README reflects a structured, professional approach to manual testing and is intended as a showcase for junior QA positions or training assessments.*
+End of README
