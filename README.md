@@ -139,5 +139,3 @@ This project is part of a personal QA portfolio. Some defects reported in this r
 This project demonstrates a structured manual testing approach with comprehensive documentation, covering functional, compatibility, and performance aspects of DemoBlaze. Despite site unavailability, the artifacts showcase solid QA methodology and reporting suitable for junior QA portfolios.
 
 ---
-
-End of README
