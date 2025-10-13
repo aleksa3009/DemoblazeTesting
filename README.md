@@ -130,6 +130,8 @@ See: `ExecutionResults/Execution_Results_Lighthouse.md`
 
 This project is part of a personal QA portfolio. Some defects reported in this repository were intentionally fabricated for demonstration purposes, in order to showcase defect documentation, reporting skills, and test case design. Given the DemoBlaze site has been non-functional since July 17, 2025, no further fixes or updates can be applied.
 
+**UPDATE (October 13, 2025):** The DemoBlaze website is fully operational. All previously planned test cases can now be executed on the live site, ensuring accurate validation of functionality, compatibility, and performance as originally intended.
+
 ---
 
 ## Conclusion
